@@ -21,6 +21,9 @@ fi
 
 echo "Dependencies installed successfully."
 
+echo "Cleaning previous Next.js cache (if any)..."
+rm -rf .next
+
 echo "Starting the development server on port 9000..."
 
 # Run the development server
